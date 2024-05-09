@@ -1,7 +1,7 @@
-
 package br.unipar.exemplo.rest.dto;
 
-public class ClienteRequest {
+
+public class ClienteResponse {
     private String cpf;
     private String nome;
 
@@ -20,4 +20,5 @@ public class ClienteRequest {
     public void setNome(String nome) {
         this.nome = nome;
     }
+    
 }
